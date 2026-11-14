@@ -12,6 +12,7 @@ public class Demo extends BaseClass {
 @Test
 public void demo() {
 	UtilityClassObject.getTest().log(Status.INFO,"demo test script execution");
+	System.out.println("SAMPLE copy ");
 	Assert.fail();
 }
 }
