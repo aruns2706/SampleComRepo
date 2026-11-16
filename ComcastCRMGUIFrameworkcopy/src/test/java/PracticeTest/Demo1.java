@@ -8,11 +8,11 @@ import com.aventstack.extentreports.Status;
 import com.comcast.crm.basetest.BaseClass;
 import com.comcast.crm.generic.webdriverutility.UtilityClassObject;
 @Listeners(com.comcast.crm.listenerutility.ListenerImplementation.class)
-public class Demo extends BaseClass {
+public class Demo1 extends BaseClass {
 @Test
 public void demo() {
 	UtilityClassObject.getTest().log(Status.INFO,"demo test script execution");
-	System.out.println("SAMPLE copy ");
+	System.out.println("SAMPLE 1 copy ");
 	Assert.fail();
 }
 }
